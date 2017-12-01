@@ -1,0 +1,23 @@
+//
+//  PreHeader.pch
+//  AudioPlayerDemo
+//
+//  Created by VD on 2017/11/30.
+//  Copyright © 2017年 VD. All rights reserved.
+//
+
+#ifndef PreHeader_h
+#define PreHeader_h
+
+
+#define KDUnavailable(test) \
+__attribute__((unavailable(test)))
+#import <AudioToolbox/AudioToolbox.h>
+
+//#ifdef __cplusplus
+//#define WDAS_EXTERN extern "C"
+//#else /* __cplusplus */
+//#define WDAS_EXTERN extern
+//#endif /* __cplusplus */
+
+#endif /* PreHeader_h */

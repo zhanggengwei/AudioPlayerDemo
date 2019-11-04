@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
  s.name     = 'AudioPlayerDemo'
- s.version  = '1.0'
+ s.version  = '1.0.1'
  s.license  = 'MIT'
  s.summary  = 'An atuo fit size tagView on iOS.'
  s.homepage = 'https://github.com/zhanggengwei/AudioPlayerDemo'
